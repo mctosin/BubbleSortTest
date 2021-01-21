@@ -25,7 +25,7 @@
     <ConfigurationType>Application</ConfigurationType>
     <PlatformToolset>v142</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
-    <ProjectName>TestTemplate</ProjectName>
+    <ProjectName>BubbleSortTest</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
@@ -37,8 +37,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\Exemplo.c" />
-    <ClCompile Include="test\ExemploTest.cpp" />
+    <ClCompile Include="src\BubbleSortTest.c" />
+    <ClCompile Include="test\BubbleSortTestTest.cpp" />
   </ItemGroup>
   <ItemDefinitionGroup />
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
