@@ -15,5 +15,4 @@ jobs:
       run: mkdir build && cd build && cmake -DCMAKE_BUILD_TYPE=Debug ..
     - name: make
       run: cd build && make
-    - name: Run Test
-      run: build/test/BubbleSortTest.test
+    - uses: education/autograding@v1
