@@ -9,6 +9,46 @@
       "comparison": "included",
       "timeout": 10,
       "points": 1
+    },
+    {
+      "name": "DoisElementosForaDeOrdem",
+      "setup": "",
+      "run": "build/test/BubbleSortTest.test --gtest_filter=Bubblesort.DoisElementosForaDeOrdem",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "DoisElementosEmOrdem",
+      "setup": "",
+      "run": "build/test/BubbleSortTest.test --gtest_filter=Bubblesort.DoisElementosEmOrdem",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "TresElementosEmOrdemInversa",
+      "setup": "",
+      "run": "build/test/BubbleSortTest.test --gtest_filter=Bubblesort.TresElementosEmOrdemInversa",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "VinteElementosRandomicos",
+      "setup": "",
+      "run": "build/test/BubbleSortTest.test --gtest_filter=Bubblesort.VinteElementosRandomicos",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
     }
   ]
 }
