@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "UmElemento",
+      "setup": "",
+      "run": "build/test/BubbleSortTest.test --gtest_filter=Bubblesort.UmElemento",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
